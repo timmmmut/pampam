@@ -4,7 +4,7 @@ using namespace std;
 void srArifmPlus(int size) {
 	srand(time(0));
 	int* mas = new int[size];
-	int sum = 0;
+	double sum = 0;
 	int g = 0;
 	for (int i = 0; i < size; i++) {
 		mas[i] = rand() % 21 -10;
